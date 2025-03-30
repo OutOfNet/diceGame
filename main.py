@@ -29,14 +29,14 @@ def diceRoll() :
         
         if(player1Roll == player2Roll) :
 
-            print("Both players rolled",player1Roll,"however neither got a one, so the game continues!")
+            print("Both players rolled",  player1Roll, "however neither got a one, so the game continues!")
 
             diceRoll()
 
         player1Score = int(player1Score)
         player2Score = int(player2Score)
 
-        print("The first player rolled",player1Roll,+"and the second player rolled",player2Roll,"!")
+        print("The first player rolled ",  player1Roll, " and the second player rolled ",  player2Roll, "!")
 
         diceRoll()
 
@@ -53,8 +53,8 @@ def diceRoll() :
         player1Score += 1
 
         print("The first player rolled a 1 and has therefore won a point.")
-        print("Player 1 score :",player1Score)
-        print("Player 2 score :",player2Score)
+        print("Player 1 score :", player1Score)
+        print("Player 2 score :", player2Score)
 
         if(player1Score == 10 or player2Score == 10):
             if(player1Score == 10):
@@ -85,8 +85,8 @@ def diceRoll() :
         player2Score = str(player2Score)
 
         print("The second player rolled a 1 and has therefore won a point.")
-        print("Player 1 score : "+player1Score)
-        print("Player 2 score : "+player2Score)
+        print("Player 1 score : ", player1Score)
+        print("Player 2 score : ", player2Score)
 
         player1Score = int(player1Score)
         player2Score = int(player2Score)
